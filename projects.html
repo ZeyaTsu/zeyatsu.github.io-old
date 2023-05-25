@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <!--<link rel="icon" type="image/x-icon" href="">-->
+        <title>ZeyaTsu</title>
+    </head>
+    
+    <header>
+        
+        
+        
+        <div class="container-header">
+            <div class="pseudo-image">
+                <p id="time"></p>
+                <img id="main" src="pa-sanwhite.png" />
+                <h1 id="username">ゼヤツ</h1>
+            </div>
+        </div>
+
+        <div class="btn">
+            <a href="https://zeyatsu.github.io/design">
+                <h1 id="button-text">Graphic Design</h1>
+            </a>
+            <a href="https://zeyatsu.github.io/about">
+                <h1 id="button-text">About me</h1>
+            </a>
+            <a href="https://zeyatsu.github.io/projects">
+                <h1 id="button-text-selected">Projects</h1>
+            </a>
+        </div>
+    </header>
+
+    <body>  
+    </body>
+
+    <footer>         
+    </footer>
+
+    <script>
+        let time = document.getElementById("time");
+        setInterval(() =>{
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        }, 1000)
+    </script>
+
+    
+</html>
