@@ -52,21 +52,28 @@
     margin-top: 1vh;
 }
 
+html {
+    --res: calc(0.01 * 10vmin);
+}
+
 .btn {
     margin-top: 5vh;
-    font-size: 1vh;
+    font-size: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-    justify-content: center;
-    gap: 10vw;
-    margin-right: 7vh;
+    justify-content: space-evenly;
+    min-width: 10%;
+    max-width: 100%;    
 }
 #button-text {
     border: 1px solid white;
     padding: 1vh;
+    padding-left: 5vh;
+    max-width: 10vh;
+    padding-right: 5vh;
     transition: 0.2s;
 }
 #button-text:hover {
