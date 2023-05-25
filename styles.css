@@ -83,5 +83,8 @@ html {
 #button-text-selected {
     border: 1px solid rgb(248, 200, 111);
     padding: 1vh;
+    padding-left: 5vh;
+    max-width: 10vh;
+    padding-right: 5vh;
     transition: 0.2s;
 }
