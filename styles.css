@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .container-header {
     font-family: 'Noto Sans JP', sans-serif;
     color: white;
@@ -87,4 +88,23 @@ html {
     max-width: 10vh;
     padding-right: 5vh;
     transition: 0.2s;
+}
+
+#link {
+    color: rgb(248, 200, 111);
+    transition: 0.2s;
+}
+#link:hover {
+    color: white;
+}
+
+.about-container {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    height: 372px;
+    max-height: 372px;
+    max-width: 100%;
+}
+#back {
+    margin-top: 10vh;
 }

@@ -15,8 +15,16 @@
         <div class="container-header">
             <div class="pseudo-image">
                 <p id="time"></p>
-                <img id="main" src="pa-sanwhite.png" />
-                <h1 id="username">ゼヤツ</h1>
+                <!--<img id="main" src="pa-sanwhite.png" />
+                <h1 id="username">ゼヤツ</h1>-->
+                <div class="about-container">
+                    <p id="about-text">I have many projects.<br/>About <a href="https://zeyatsu.github.io/artworks" id="link" target="_blank">Graphic Design</a> I want to make my own team/studio and already have a name for it.</p>
+                    <p id="about-text">About programming, I have made the <a href="https://pypi.org/project/rustylib/" id="link" target="_blank">rustylib</a> library for <a href="https://fr.wikipedia.org/wiki/Python_(langage)" id="link" target="_blank">Python</a>,but also <a href="https://github.com/ZeyaTsu/mcpy-tools-new" id="link" target="_blank">MCPY-Tools</a><br/> and currently working on the project <a href="https://github.com/aquatope" id="link" target="_blank">Aquatope</a>.</p>
+                    <p id="about-text">You can see all of my projects as regards programming by clicking <a href="https://github.com/ZeyaTsu" id="link" target="_blank">here</a></p>
+                    <p id="about-text">And <a href="htts://zeyatsu.github.io/artworks" id="link">here for Graphic Design</a>.</p>
+
+                    <p id="back" div="back"><a href="https://zeyatsu.github.io" id="link"><<< Back</a></p>
+                </div>
             </div>
         </div>
 
@@ -39,13 +47,8 @@
     <footer>         
     </footer>
 
-    <script>
-        let time = document.getElementById("time");
-        setInterval(() =>{
-            let d = new Date();
-            time.innerHTML = d.toLocaleTimeString();
-        }, 1000)
-    </script>
+    <script src="script.js"></script>
+
 
     
 </html>
